@@ -28,4 +28,24 @@ name = 'title'.strip()
 
 - `\t` 向前缩进
 - `\n` 换行
-## 4.数字(int)
+## 4.列表
+~~~py
+list = ['first','second','three']
+#在末尾添加
+list.append('four')
+#在指定地址添加
+#<listName>.insert(_index,_object)
+list.insert(0,'one')
+#在指定地方删除
+#del <listName>[_index]
+del list[0]
+#获取删除的元素
+#<listName>.pop(_index)
+delData = list.pop(1)
+#删除列表内指定值
+#<listName>.remove(_value)
+list.remove('second')
+#查看数组内元素个数
+#len(listName)
+len(list)
+~~~
