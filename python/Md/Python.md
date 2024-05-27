@@ -48,4 +48,11 @@ list.remove('second')
 #查看数组内元素个数
 #len(listName)
 len(list)
+#列表的切片
+#<listName>[n?,m?] 可选 n是起点  m是终点 某个值为空时默认从头开始 全部为空时则为整个列表 
+list[:,5]
 ~~~
+## 5.元组
+元组里面的元素不可修改
+
+
