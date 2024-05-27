@@ -59,5 +59,16 @@ lists = (1,2,3)
 lists[0] = 4 #error 
 lists = (4,2,3) #OK
 ~~~
-
-
+## 6.条件判断
+~~~py
+# 1.与或非 
+and == &&
+or == ||
+! = !
+# 2.特定的值未包含再列表
+not in
+# 3.if-elif-else
+if :
+    elif:
+        else:
+~~~
