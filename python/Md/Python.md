@@ -133,4 +133,11 @@ class People:
     # 使用类
     zhangsan = People('zhangsan', 18)
     eat = zhangsan.eat()
+
+    ##修改属性的值
+    ## 1.可以直接修改
+    zhangsan.age = 20
+    ## 2.通过方法修改属性的值
+
+
 ```
